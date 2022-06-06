@@ -1,7 +1,6 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
         i=0
-        j=0
         total=0
         dic ={"I":1,"V":5,"X":10,
               "L":50,
